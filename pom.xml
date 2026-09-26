@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.1.0</version>
+    <version>4.1.1</version>
   </parent>
 
   <groupId>org.owasp.webgoat</groupId>
@@ -63,7 +63,7 @@
   <properties>
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>3.0.1</asciidoctorj.version>
-    <bootstrap.version>5.3.5</bootstrap.version>
+    <bootstrap.version>5.3.8</bootstrap.version>
     <cglib.version>3.3.0</cglib.version>
     <!-- do not update necessary for lesson -->
     <checkstyle.version>3.6.0</checkstyle.version>
@@ -72,15 +72,15 @@
     <commons-io.version>2.22.0</commons-io.version>
     <commons-lang3.version>3.14.0</commons-lang3.version>
     <commons-text.version>1.15.0</commons-text.version>
-    <guava.version>33.6.0-jre</guava.version>
+    <guava.version>33.7.1-jre</guava.version>
     <jacoco.version>0.8.11</jacoco.version>
     <java.version>25</java.version>
     <jaxb.version>2.3.1</jaxb.version>
     <jjwt.version>0.9.2</jjwt.version>
     <jose4j.version>0.9.7</jose4j.version>
     <jquery.version>4.0.0</jquery.version>
-    <jsoup.version>1.22.2</jsoup.version>
-    <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
+    <jsoup.version>1.23.2</jsoup.version>
+    <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
     <maven-failsafe-plugin.version>3.5.6</maven-failsafe-plugin.version>
     <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
     <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
@@ -103,12 +103,12 @@
     <webgoat.port>8080</webgoat.port>
     <webgoat.sslenabled>false</webgoat.sslenabled>
     <!-- Spring Boot 4 resolves version-less webjars URLs via webjars-locator-lite -->
-    <webjars-locator-lite.version>1.1.4</webjars-locator-lite.version>
+    <webjars-locator-lite.version>1.1.5</webjars-locator-lite.version>
     <webwolf.context>/WebWolf</webwolf.context>
     <webwolf.port>9090</webwolf.port>
     <wiremock.version>3.13.2</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
-    <xstream.version>1.4.5</xstream.version>
+    <xstream.version>1.4.21</xstream.version>
     <!-- do not update necessary for lesson -->
     <zxcvbn.version>1.9.0</zxcvbn.version>
   </properties>
@@ -165,7 +165,7 @@
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>java-jwt</artifactId>
-        <version>4.6.0</version>
+        <version>4.6.1</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
@@ -241,7 +241,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.46</version>
+      <version>1.18.48</version>
       <scope>provided</scope>
       <optional>true</optional>
     </dependency>
@@ -675,7 +675,7 @@
             <path>
               <groupId>org.projectlombok</groupId>
               <artifactId>lombok</artifactId>
-              <version>1.18.46</version>
+              <version>1.18.48</version>
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
